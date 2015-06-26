@@ -1,0 +1,268 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+06-25-2015 11:57:
+D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:69
+        html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим в
+        ^^^^
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:443:25)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 11:58:
+D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:77
+        html: 'src/**/*.html',
+        ^^^^
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:443:25)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 11:59:
+D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:201
+        .pipe(reload({stream: true}));
+        ^
+SyntaxError: Unexpected token .
+    at exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:443:25)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:00:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+Error: `libsass` bindings not found in D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\vendor\win32-x64-14\binding.node. Try reinstalling `node-sass`?
+    at Object.sass.getBinaryPath (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\extensions.js:148:11)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\index.js:16:36)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\gulp-sass\index.js:157:21)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:03:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+Error: `libsass` bindings not found in D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\vendor\win32-x64-14\binding.node. Try reinstalling `node-sass`?
+    at Object.sass.getBinaryPath (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\extensions.js:148:11)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\index.js:16:36)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\gulp-sass\index.js:157:21)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:03:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+Error: `libsass` bindings not found in D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\vendor\win32-x64-14\binding.node. Try reinstalling `node-sass`?
+    at Object.sass.getBinaryPath (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\extensions.js:148:11)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\index.js:16:36)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\gulp-sass\index.js:157:21)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:05:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+Error: `libsass` bindings not found in D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\vendor\win32-x64-14\binding.node. Try reinstalling `node-sass`?
+    at Object.sass.getBinaryPath (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\extensions.js:148:11)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\index.js:16:36)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\gulp-sass\index.js:157:21)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:11:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+Error: `libsass` bindings not found in D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\vendor\win32-x64-14\binding.node. Try reinstalling `node-sass`?
+    at Object.sass.getBinaryPath (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\extensions.js:148:11)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\node-sass\lib\index.js:16:36)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\node_modules\gulp-sass\index.js:157:21)
+    at Module._compile (module.js:460:26)
+
+
+06-25-2015 12:14:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+ReferenceError: plugins is not defined
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:251:1)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+
+
+06-25-2015 12:17:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+ReferenceError: plugins is not defined
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:252:1)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814
+
+
+06-25-2015 14:58:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+ReferenceError: uncss is not defined
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:19:17)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+
+
+06-25-2015 14:59:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+ReferenceError: uncss is not defined
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:19:17)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+
+
+06-25-2015 15:00:
+C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:23
+        throw ex;
+              ^
+ReferenceError: uncss is not defined
+    at Object.<anonymous> (D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:19:17)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+
+
+06-25-2015 15:01:
+D:\DrobBox\Dropbox\loadlab\Flowers\Prod\.sublime-gulp-tmp.js:152
+    .pipe(haml())
+    ^
+SyntaxError: Unexpected token .
+    at exports.runInThisContext (vm.js:73:16)
+    at Module._compile (module.js:443:25)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at requireGulp (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:20:16)
+    at Object.<anonymous> (C:\Users\Zet\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:72:12)
+    at Module._compile (module.js:460:26)

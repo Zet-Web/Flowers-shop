@@ -1,0 +1,85 @@
+//@extend-elements
+//original selectors
+//#owl-demo2 .owl-item > div img, #owl-demo .owl-item > div img
+%link_box {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  }
+
+%vcenter {
+  display: table-cell;
+  vertical-align: middle;
+  }
+
+%primary-btn {
+  height: 42px;
+  -webkit-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -khtml-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -moz-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -ms-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -o-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  background: $white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  border: none;
+  }
+
+%lg-btn {
+  -webkit-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -khtml-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -moz-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -ms-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  -o-box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  box-shadow: rgba(0, 1, 2, 0.18) 0px 2px 0px;
+  background: $blue;
+  font-size: 21px;
+  color:#ffffff;
+  line-height: 30px;
+  padding: 15px 70px;
+  text-transform: uppercase;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  border: none;
+  }
+
+%alpha {margin-left: 0; }
+%omega { margin-right: 0; }
+
+.box-link {
+  @include size(100%);
+  display: block;
+  text-align: center;
+  }
+.after-box {
+  @include size(100%);
+  content: "";
+  position: absolute;
+  left: 0;
+  top:0;
+  }
+
+%primary_btn {
+  @include char_text(18px, 24px, #ffffff);
+  @include border-radius(50px);
+  text-decoration:none ;
+  padding: 8px 60px;
+  background: #7f657e;
+  text-transform: uppercase;
+  height: 40px;
+  &:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+    }
+  }
+

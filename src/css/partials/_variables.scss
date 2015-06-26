@@ -1,0 +1,51 @@
+//colors
+$white: #ffffff;
+$pink: #bb93a9;
+$pink2: #f4b6ba;
+$blue: #1bad9b;
+$noise: #bebebe;
+$darkpink: #7f657e;
+$reg_font:'ProximaNovaExCn-Regular';
+$semibold_font:'ProximaNova-Semibold';
+$thin_font: 'ProximaNovaExCn-Thin';
+$heavy_font: 'FuturaPTWebHeavy';
+$light_font: 'ProximaNova-Light';
+$black_font:  'ProximaNova-Black';
+$regular_it:  'ProximaNova-RegularIt';
+$bold_font:  'ProximaNova-Bold';
+$sans-serif: sans-serif;
+$light_font_italic: 'ProximaNova-LightIt';
+$serif:'serif';
+$black: #000000;
+$blue: #1475a7;
+$white: #FFFFFF;
+//fonts
+$font_0: AvenirNextCyr-Bold;
+$font_1: AvenirNextCyr-BoldItalic;
+$font_2: AvenirNextCyr-Demi;
+$font_3: AvenirNextCyr-Regular;
+$font_4: AvenirNextCyr-UltraLightIt;
+$font_5: AvenirNextCyr-Light;
+$font_6: AvenirNextCyr-Medium;
+$font_7: AvenirNextCyr-Thin;
+$font_8: sans-serif;
+$font_2: sans-serif;
+
+
+.title-head {
+  @include char_text(24px, 36px, #ffffff);
+  font-weight: 500;
+  margin: 30px 0 15px;
+  }
+
+.back-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include size(100%);
+  }
+
+input.hidden {display: none;}
+.disabled {
+  @include size(100%);
+  }

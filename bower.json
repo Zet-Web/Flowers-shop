@@ -1,0 +1,29 @@
+{
+  "name": "Flowers",
+  "version": "0.0.0",
+  "description": "Priver Bukett",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "buket"
+  ],
+  "authors": [
+    "Zet Web <zet.pick@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*",
+    "bootstrap": "3"
+  },
+  "devDependencies": {
+    "swiper": "~3.0.7"
+  }
+}

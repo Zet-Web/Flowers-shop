@@ -1,0 +1,48 @@
+%header
+  .logo
+    %a{:href => "/index.html"}
+      %img.logo_main{:alt => "", :src => "images/logo.png"}/
+  .contact-info.clearfix
+    .top-side
+      .tel-box.row.clearfix
+        .col-xs-4.adress.adress-1
+          %span.number 8 (988) 222-98-97
+          %span.metro м. Чертановская
+        .col-xs-4.adress.adress-2
+          %span.number 8 (988) 222-98-97
+          %span.metro м. Таганская
+        .col-xs-4.adress.adress-2
+      .pull-right.social-links
+        %a.social-box.vk(href="#")
+          %img(src="images/vk.png" )
+        %a.social-box.you(href="#")
+          %img(src="images/fb.png" )
+        %a.social-box.you(href="#")
+          %img(src="images/you.png" )
+        %a.social-box.inst(href="#")
+          %img(src="images/inst.png" )
+    .bottom-side
+      %nav
+        %ul
+          %li
+            %a{:href => "./index.html"} Главная
+          %li
+            %a{:href => "./about.html"} О клубе
+          %li
+            %a{:href => "./news.html"} Новости
+          %li
+            %a{:href => "./zal.html"} Залы
+          %li
+            %a{:href => "#"} Тренеры
+          %li
+            %a{:href => "#contacts"} Спортсмены
+          %li
+            %a{:href => "./gallery.html"} Галерея
+          %li
+            %a{:href => "#contacts"} Магазин
+          %li
+            %a{:href => "#contacts"} Контакты
+      .search-field
+        %form(action="POST")
+          %input.hidden(type="search" )
+          %a.disabled(href="#" )

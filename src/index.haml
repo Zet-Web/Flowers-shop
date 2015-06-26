@@ -1,0 +1,36 @@
+!!! 5
+%html
+  %head
+    -# = Haml::Engine.new(File.read('templates/head.haml')).render
+    -#= render :partial => "sidebar"
+    @@include('templates/head.html')
+  %body
+    -# = Haml::Engine.new(File.read('templates/header.haml')).render
+    .content
+      .container
+        .row.cats-main-page
+          .col-xs-12
+            .type-buket.buket-1
+              %a(href="#" )
+                %img.hex-main-pic(src="images/cat-main-1.jpg" )
+                .hexagon-1
+                  %img.hexa-pic(src="images/hex-1.png" )
+                .text-info
+                  %span Букет невесты
+            .type-buket.buket-2
+              %a(href="#" )
+                %img.hex-main-pic(src="images/cat-main-2.jpg" )
+                .hexagon-1
+                  %img.hexa-pic(src="images/hex-2.png" )
+                .text-info
+                  %span Букет в подарок
+            .type-buket.buket-3
+              %a(href="#" )
+                %img.hex-main-pic(src="images/cat-main-3.jpg" )
+                .hexagon-1
+                  %img.hexa-pic(src="images/hex-3.png" )
+                .text-info
+                  %span Оформление цветами
+
+
+    -# = Haml::Engine.new(File.read('templates/footer.haml')).render

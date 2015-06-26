@@ -1,0 +1,14 @@
+.pop-up-2#popup_layer
+  .feedabck-box
+    .close-btn
+      %img(src="images/close.png" )
+    .title-fancy Мы свяжемся с Вами
+    %form(method="POST"  role="form" )
+      .input-box
+        %input#feed-name(type="text" onblur="this.placeholder = 'Имя'" onfocus="this.placeholder = ''" placeholder="Имя" )
+      .input-box
+        %input#feed-mail(type="text" onblur="this.placeholder = 'Email'" onfocus="this.placeholder = ''" placeholder="Email" )
+      .input-box
+        %input#feed--tel.tel(type="text" onblur="this.placeholder = 'Телефон'" onfocus="this.placeholder = ''" placeholder="Телефон" )
+      .input-box
+        %button.lg-btn.submit(type="submit") Отправить
